@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-family: 'Mulish', sans-serif;
+	text-shadow: .5px .5px  black;
+}
+nav a{
+	text-decoration: none;
+	color:#000;
+	/*font-weight: bolder;*/
+	position: relative;
+}
+
+nav a:first-child{
+	color: #4458dc;
+}
+nav a:before{
+	content: "";
+	position: absolute;
+	top: 110%;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	border-bottom: 2px solid #4458dc;
+	transition: all 0.3s linear;
+}
+
+nav a:hover:before{
+	width: 100%;
+}
+form button:hover{
+	border: 1px solid blue;
+	background: white;
+	color:blue;
+}
+
+.carousel-inner{
+	height: 500px;
+
+}
+.carousel-inner img{
+	height: 500px;
+	background-size: 100% 100%;
+}
+.image1{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture1.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.image2{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture2.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.image3{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture3.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.image4{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture4.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.amenities div{
+ 		border-radius: 10px;
+}
+.amenities div div:hover{
+ 		cursor: pointer;
+ 		background: #005ce6 !important;
+ 		transition: 0.3s linear; 
+}
+.image5{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture5.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.image6{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture6.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.image7{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture7.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.image8{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture8.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.image9{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture9.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.image10{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture10.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.image11{
+	width: 50%;
+	height: 80px;
+	background-image: url('images/capture11.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.whatsapp{
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+  	position: fixed;
+  	bottom: 5%;
+  	right: 5%;
+  	background-image: url('images/whatsapp.png');
+  	background-size: 100% 100%;
+  	border-radius: 100px;
+  	cursor: pointer;
+}
